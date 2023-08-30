@@ -1,0 +1,15 @@
+CREATE TABLE favorite_books (id TEXT, name TEXT, rating INTEGER );
+
+INSERT INTO favorite_books VALUES ("drama" , "Undercurrents", "4/10" );
+INSERT INTO favorite_books VALUES ("Biography" , "Unfinished", "3/10" ); 
+
+INSERT INTO favorite_books VALUES ("Self Help", "The Purpose of Marriage", "2/10" );
+INSERT INTO favorite_books VALUES ("Self Help", "Living Life with Purpose", "2/10" ); 
+
+SELECT * FROM favorite_books;
+SELECT * FROM favorite_books WHERE rating ORDER BY rating ASC;
+
+This is my favorite books data base. Here, I ordered them by rating from lowest to highest rating.  
+
+
+
