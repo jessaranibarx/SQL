@@ -1,0 +1,19 @@
+CREATE TABLE toothfairy_store (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, unit_price INTEGER, units_sold INTEGER);
+INSERT INTO toothfairy_store VALUES (1, "Sweater", 5, 35.00, 3);
+INSERT INTO toothfairy_store VALUES (2, "Toothbrush", 10, 10.00, 5);
+INSERT INTO toothfairy_store VALUES (3, "WhiteningStrips", 15, 15.00, 5);
+INSERT INTO toothfairy_store VALUES (4, "Chapstick", 20, 5.00, 10);
+INSERT INTO toothfairy_store VALUES (5, "T-Shirt", 5, 20.00, 4);
+INSERT INTO toothfairy_store VALUES (6, "Keychain", 15, 5.00, 7);
+INSERT INTO toothfairy_store VALUES (7, "Retractable_keychain", 10, 10.00, 5);
+
+INSERT INTO toothfairy_store VALUES (8, "Nametag", 10, 7.00, 3); 
+INSERT INTO toothfairy_store VALUES (9, "Bracelet", 5, 5.00, 2);
+INSERT INTO toothfairy_store VALUES (10, "HairScrunchie", 5, 5.00, 3);
+INSERT INTO toothfairy_store VALUES (11, "Tumblermug", 5, 20.00, 2); 
+INSERT INTO toothfairy_store VALUES (12, "Whitening_gels", 10, 15.00, 5); 
+INSERT INTO toothfairy_store VALUES (13, "Waterbottles", 5, 10.00, 3); 
+INSERT INTO toothfairy_store VALUES (14, "Totebag", 5, 15.00, 5); 
+INSERT INTO toothfairy_store VALUES (15, "Mouthguards", 10, 10.00, 5);
+SELECT * FROM toothfairy_store;
+SELECT * FROM toothfairy_store WHERE units_sold >5 ORDER BY quantity desc; 
