@@ -10,6 +10,3 @@ SELECT * FROM favorite_books;
 SELECT * FROM favorite_books WHERE rating ORDER BY rating ASC;
 
 This is my favorite books data base. Here, I ordered them by rating from lowest to highest rating.  
-
-
-
